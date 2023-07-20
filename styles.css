@@ -1,0 +1,134 @@
+*{
+    font-family: 'Roboto', sans-serif ;
+    margin: 0 ;
+    padding: 0 ;
+}
+header nav img {
+    width: 15% ;
+}
+header nav div ul {
+    display: flex ;
+}
+li{
+    list-style-type: none;
+    color: rgb(157, 157, 157);
+    cursor: pointer;
+    margin-right: 30px;
+    font-weight: bold;
+
+}
+li:hover {
+    color: #00b39b;
+}
+.fix{
+    position: fixed;
+    top: 0;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding:1.2%;
+    position: fixed;
+    margin: auto;
+    box-sizing: inherit;
+    background-color: white;
+    margin-bottom: 100%;
+}
+.icon{
+    display: flex;
+    width: 2.25%;
+    justify-content: center;
+    margin: auto;
+    margin-top: 8%;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    color:#00b39b;
+    margin-top: 2%;
+}
+.para{
+    color:rgb(74, 74, 74) ;
+    width: 25%;
+    font-weight: bold;
+}
+.section1{
+    display: flex;
+    justify-content: center;
+    margin-top: 3% ;
+}
+.img2{
+    margin-top: 3%;
+}
+.section footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    font-weight: bolder;
+}
+.para2{
+    color:rgb(74, 74, 74) ;
+    width: 25%;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 2%;
+}
+button{
+    background-color: #3d83df;
+    color:white;
+    border:none;
+    outline:none;
+    padding-left: 1.25%;
+    padding-right: 1.25%;
+    padding-top: 0.75%;
+    padding-bottom: 0.75%;
+    border-radius: 4px;
+    font-weight: 700;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #0c53af;
+}
+.container-card{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 75%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin: auto;
+    
+
+}
+div div p{
+    font-weight: bold;
+    color: rgb(74, 74, 74) ;
+}
+.img-card{
+    width: 100%;
+}
+
+.country-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 3%;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: px;
+}
+.card{
+    width: 30%;
+    border-radius: 8px;
+}
+.Bogota{
+    width: 92.5%;
+}
+footer{
+    margin-top: 3%;
+}
+
+footer p{
+    font-weight: bold;
+}
